@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-start {
+    margin: 15px 90px;
+}
+
+.page-start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+.page-w{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.page-phone {
+    display: flex;
+    margin: 5px;
+    height: 16px;
+    width: 16px;
+}
+
+.w {
+    color: red;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.page-cxelixazi {
+    color: gray;
+
+}
+
+.page-home {
+    display: flex;
+    gap: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+.online {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: color .1s linear;
+}
+
+.online::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+
+.online:hover {
+    color: #000;
+}
+
+.online:hover::after{
+    opacity: 1;
+}
+
+.filialebi {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: color .1s linear;
+}
+
+.filialebi::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+
+.filialebi:hover {
+    color: #000;
+}
+
+.filialebi:hover::after{
+    opacity: 1;
+}
+
+.aqcia {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    transition: color .1s linear;
+}
+
+.aqcia::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+
+.aqcia:hover {
+    color: red;
+}
+
+.aqcia:hover::after{
+    opacity: 1;
+}
+
+.GEO {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    gap: 5px;
+    margin-left: 15px;
+}
+
+.flag-geo {
+    display: flex;
+    width: 25px;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-start-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-logo {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.market-logo {
+    display: flex;
+    height: 70px;
+    width: 70px;
+}
+
+.name-market {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.page-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.page-profile img{
+    display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+.page-profile a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    gap: 5px;
+    color: black;
+}
+
+.profile-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.get-end {
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+.section-end {
+    margin: 15px 90px;
+}
+
+.section-end-2 {
+    margin: 15px 90px;
+    background-color: #fff;
+}
+
+.page-normal {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hot-logo-img-paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    gap: 15px;
+}
+
+.hot-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.hot-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 8px 8px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.action a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid orangered;
+    background-color: orangered;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 23px;
+    
+
+}
+
+.action-paragraph {
+    display: flex;
+    text-decoration: none;
+}
+
+.product-1 {
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    width: 290px;
+    height: 310px;
+    padding: 10px;
+}
+
+.text-product a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.product-1 img {
+    width: 157px;
+    height: 157px;
+}
+
+.img-iphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-iphone {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.text-iphone:hover {
+    color: orangered;
+}
+
+.text-iphone b {
+    font-size: 18px;
+    color: red;
+}
+
+.text-iphone span {
+    color: gray;
+}
+
+.page-end {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.check-mark {
+    display: flex;
+    align-items: center;
+    margin: 25px 90px;
+}
+
+.check-mark a {
+    width: 40px;
+    height: 40px;
+}
+
+.mark-img-paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    gap: 15px;
+}
+
+.check-mark-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 8px 8px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+
+.container-1 {
+    margin: 55px 70px;
+}
+
+.logo-stecil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-stecil b {
+    font-size: 28px;
+}
+
+.img-stencil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.stecil-text a {
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 85px;
+    text-decoration: none;
+    color: #000;
+}
+
+.container-2 {
+    margin: 55px 0;
+    margin-left: 50px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 70px;
+    gap: 15px;
+}
+
+.email img {
+    width: 30px;
+    height: 30px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 70px;
+    gap: 15px;
+}
+
+.phone img {
+    width: 30px;
+    height: 30px;
+}
